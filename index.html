@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Insurance</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<header>
+    <div class="header">
+        <img id="firstimg" src="img/logo.png" alt="">
+        <a href = "https://www.codefactory.wien/">
+        <img class="banner" src="img/banner.png" alt=""> </a>
+    </div>
+    
+
+    <div class="navbar">
+        <div class="nav">Home</div>
+        <div class="nav">Team</div>
+        
+    </div>
+
+</header>
+
+
+<body>
+    <div class = "container">
+        
+
+        <div class="quote">
+            <h1 id="top">Car Insurance</h1>
+            <div class="overlay">
+                
+                <h1>Great coverage begins with a custom quote</h1>
+                <br>
+                    <div id="nameAge">
+                    <label for="name">Your name:</label><br>
+                    <input id="name" type="text">
+                    <label for="age">Age:</label><br>
+                 <input id="age" type="text">
+                 </div>
+
+                <div id="countryCar">
+                    <label for="country">Country:</label>
+                    <select name="country" id="select">
+                        <option value="usa">USA</option>
+                        <option value="canada">Canada</option>
+                     <option value="brazil">Brazil</option>
+                        <option value="greece">Greece</option>
+                     <option value="russia">Russia</option>
+                 </select>
+                    <label for="horsepower">Horsepower for your car:</label>
+                    <input id="horsepower" type="text">
+
+                 </div>
+
+                 <div class="button">
+                <button id="calculate">Calculate</button>
+                 </div>
+
+                <div id="showresult">
+                    <h3>Insurance calculation:</h3>
+                    <div id="result">
+                    </div>
+            </div>
+            </div>
+
+            <div class="greybox">
+                <h2>Un-complicating car coverage</h2>
+                <p>Understanding your coverage options shouldn't be so hard. <br>
+                   We'll guide you through available coverage types,
+                   starting with who and what is covered <br>
+                </p>
+            </div>
+
+            
+        </div>
+            <div class="bottom">
+                <div class="box">
+                <h3>What comes standard</h3>
+                    <p>The coverage you need</p><br>
+                    <p>&#10004; Bodily injury liability <br>
+                    &#10004; Property Damage<br>
+                    &#10004; Medical Payments<br>
+                    </p>
+                <p class="benefits">
+                    <h4>Benefits</h4> <br>
+                    12-month rate guarantee | 24/7 customer service | Lifetime Repair Guarantee
+
+                </p>
+                </div>
+
+        
+                <div class="box">
+                    <h3>Add-on protection & coverate</h3>
+                        <p>For more peace of mind</p><br>
+                        <p>&#10004; Better Car Replacement <br>
+                        &#10004; Towing & Labor<br>
+                        &#10004; Rental Car Coverage<br>
+                        </p>
+                    <p class="benefits">
+                        <h4>Earned Benefits</h4> <br>
+                        Accident Forgiveness<sup>1</sup> | New Car Replacement<sup>TM</sup>
+    
+                    </p>
+                    </div>
+             </div>
+
+        <script type="text/javascript" src="car.js"> 
+        
+        
+        
+            //add event trigger
+            /*document.getElementById("calculate").addEventListener("click", getCalculation,false)
+
+            function getCalculation (){
+                var name = document.getElementById("name").value;
+                var age = Number(document.getElementById("age").value);
+                var country = document.getElementById("select").value;
+                var horsepower = Number(document.getElementById("horsepower").value);
+
+                document.getElementById("result").innerHTML = age * horsepower;
+            }*/
+
+        </script>
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+<footer>
+    <div class="footer">
+        <div class="navbar">
+            <div class="nav">Home</div>
+            <div class="nav">Tech</div>
+            </div>
+
+        <div class="footimg">
+        <img src="img/logo.png" alt="">
+        </div>
+
+        <div id="footertext">
+            Carmen - CodeFactory 2020
+        </div>
+    </div>
+
+    </div>
+
+</footer>
+</html>

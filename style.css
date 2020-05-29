@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+  }
+
+  .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background-color: #e2a6ad;
+    color: white;
+    padding-left: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 2%;
+    height: 8%;
+  }
+  
+  .navbar {
+    background-color: #3f0404;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    padding-left: 1%;
+    height: 5%;
+    padding-top: 1%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  
+  .nav {
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: 18pt;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  
+  .banner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+/*body starts here*/
+.quote {
+    background-image: url("img/traffic.jpg");
+    background-position: center;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    z-index: 0;
+    
+}
+
+.overlay {
+    z-index: 1;
+    
+    background: rgb(151, 145, 145, .7);
+    padding-top: 3em;
+    padding-left: 20em;
+    padding-right: 20em;
+    padding-bottom: 5em;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-style: solid;
+    border-width: 1em;
+    border-color: lightseagreen;
+}
+
+#top {
+    color: white;
+    padding-left: 2em;
+}
+
+#nameAge {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 16pt;
+    font-weight: bold;
+    padding-bottom: 2em;
+}
+
+#countryCar {
+    display: flex;
+    flex-direction:  row;
+    justify-content: space-around;
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+#calculate {
+    display: flex;
+    justify-content: center;
+    background-color: green;
+    color:rgb(184, 181, 181);
+    height: 5em;
+    width: 15em;
+    font-size: 16pt;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-radius: 15px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#showresult {
+    text-align: center;
+    font-weight: bold;
+}
+#result{
+    font-weight: bold;
+    font-size: 24pt;
+    text-align: center;
+}
+
+.greybox{
+    z-index: 0;
+    background-color: lightslategray;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-weight: bold;
+    font-size: larger;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.box{
+    width: 20%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding-top: .5em;
+    padding-bottom: 2em;
+    padding-left: .5em;
+    border: solid;
+    border-width: 1px;
+    border-color: black rgb(189, 187, 187) rgb(189, 187, 187) rgb(189, 187, 187);
+}
+
+
+  footer {
+    background-color: #0e0d0d;
+  }
+  
+  .footimg {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    padding-right: 2%;
+  }
+  
+  #footertext {
+    color: white;
+    text-align: center;
+    padding-bottom: 2%;
+  }
+  
