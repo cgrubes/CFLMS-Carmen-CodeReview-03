@@ -31,7 +31,7 @@
 
     <div class = "profilePics">
         <div>
-            <img id="bob"src="img/bob.jpg" alt="">
+            <img id="bob"src="img/bob.jpg">
             <p id="profile1"></p>
         </div>
 
@@ -75,8 +75,17 @@
      getInfo("Bob", "bob@gmail.com", "Marketing");*/
 
 
+     document.getElementById("bob").addEventListener("click", fillName, false);
+     
 
+     function fillName(first, last, mail,job){
+         var result = first + " " + last;
+         document.getElementById("profile1").innerHTML=result;
+     }
 
+     fillName("Bob", 'Jones')
+    
+     
 
      class Person{
         firstname = "";
@@ -111,9 +120,11 @@
     for (var i=0; i<people.length; i++){
         console.log(people[i].fullname());
         console.log(people[i].additional());
+
+    document.getElementsByTagName("p"[i]).innerHTML=people[i].fullname;
     }
 
-    
+
 
 
 </script>
