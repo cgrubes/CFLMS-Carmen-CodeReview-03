@@ -17,7 +17,7 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    background-color: #e2a6ad;
+    background-color:rgb(243, 199, 182);
     color: white;
     padding-left: 2%;
     padding-top: 1%;
@@ -86,8 +86,8 @@
     margin-left: 5%;
     margin-right: 5%;
     border-style: solid;
-    border-width: 1em;
-    border-color: lightseagreen;
+    border-width: .5em;
+    border-color: rgb(107, 104, 103);
 }
 
 #top {
@@ -115,7 +115,8 @@
 #calculate {
     display: flex;
     justify-content: center;
-    background-color: green;
+    text-align: center;
+    background-color: rgb(60, 88, 15);
     color:rgb(184, 181, 181);
     height: 5em;
     width: 15em;
