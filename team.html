@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="header">
+            <img id="firstimg" src="img/logo.png" alt="">
+            <a href = "https://www.codefactory.wien/">
+            <img class="banner" src="img/banner.png" alt=""> </a>
+        </div>
+        
+    
+        <div class="navbar">
+            <div class="nav">Home</div>
+            <div class="nav">Team</div>
+           
+        </div>
+    
+    </header>
+  
+    
+    <div class="headline">
+        <h1>Meet our Team!</h1>
+    </div>
+
+    <div class = "profilePics">
+        <div>
+            <img id="bob"src="img/bob.jpg" alt="">
+            <p id="profile1"></p>
+        </div>
+
+        <div>
+            <img id="mae"src="img/mae.jpg" alt="">
+            <p id="profile2"></p>
+
+        </div>
+            
+        <div>
+            <img id="jack"src="img/jack.jpg" alt="">
+            <p id="profile3"></p>
+        </div>
+        
+        
+        <div>
+            <img id="kelly"src="img/kelly.jpg" alt="">
+            <p id="profile4"></p>
+        </div>
+        
+        <div>
+            <img id="sara" src="img/sara.jpg" alt="">
+            <p id="profile5"></p>
+        </div>
+        
+
+    </div>
+
+   
+
+
+
+<script>
+    /* document.getElementById("profile1").addEventListener("click", getInfo,false)
+
+     function getInfo(name1,email1,position1){
+         var person1= name1 + "  " + email1 + "  " + position1
+         document.getElementById("profile1").innerHTML = person1;
+
+     }
+     getInfo("Bob", "bob@gmail.com", "Marketing");*/
+
+
+
+
+
+     class Person{
+        firstname = "";
+        lastname = "";
+        email = "";
+        position ="";
+    
+
+    constructor(firstname, lastname, email, position) {
+        this.firstname = firstname;
+        this.lastname = lastname;
+        this.email = email;
+        this.position = position;
+    } 
+
+    fullname(){
+        return this.firstname + " " + this.lastname;
+    }
+
+    additional(){
+        return this.position + ", " + this.email;
+    }
+}
+    var person1 = new Person("Bob", "Jones", "bob@gmail.com", "Marketing");
+    var person2 = new Person("Mae", "SMith", "mae@gmail.com", "Engineer" );
+    var person3 = new Person("Jack", "Ito", "jack@gmail.com", "Sales Rep");
+    var person4 = new Person('Kelly', "Elto", "kelly@gmail.com", "IT Support");
+    var person5 = new Person("Sara", "Verenat", "sara@gamil.com", "Manager");
+
+    var people=[person1, person2, person3, person4, person5];
+
+    for (var i=0; i<people.length; i++){
+        console.log(people[i].fullname());
+        console.log(people[i].additional());
+    }
+
+    
+
+
+</script>
+
+
+</body>
+</html>
